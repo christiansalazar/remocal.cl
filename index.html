@@ -1,1 +1,189 @@
-hola remocal.cl
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>En Construcción - Remocal SPA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #F4D03F; /* Amarillo pato */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px; /* Más grande */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #0a0a0a;
+            padding: 3rem 2.5rem; /* Más padding */
+            border-radius: 0;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            border: 1px solid #2a2a2a;
+        }
+
+        .logo-wrapper {
+            background: #0a0a0a;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #2a2a2a;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+            width: 280px; /* Más grande */
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem; /* Más grande */
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .sub {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #aaaaaa;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .servicios {
+            font-weight: 600;
+            font-size: 1.2rem; /* Más grande */
+            color: #e0e0e0;
+            background: #1a1a1a;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #F4D03F;
+        }
+
+        .direccion {
+            font-size: 1rem;
+            color: #cccccc;
+            line-height: 1.6;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+
+        .contacto {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #2a2a2a;
+        }
+
+        .contacto a {
+            color: #dddddd;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid #444444;
+            font-size: 1rem;
+        }
+
+        .contacto a:hover {
+            border-bottom-color: #F4D03F;
+        }
+
+        .contacto p {
+            margin: 0.6rem 0;
+            font-size: 1rem;
+            color: #bbbbbb;
+        }
+
+        .estado {
+            margin-top: 2rem;
+            display: inline-block;
+            background: #2a2a2a;
+            color: #F4D03F;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 1rem;
+            }
+            .card {
+                padding: 2rem 1.5rem;
+            }
+            .logo {
+                width: 200px;
+            }
+            .logo-wrapper {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .servicios {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 160px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .card {
+                padding: 1.5rem 1.2rem;
+            }
+            .servicios {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="logo-wrapper">
+            <img src="logo.png" alt="Remocal SPA" class="logo">
+        </div>
+
+        <h1>Remocal SPA</h1>
+
+        <div class="sub">
+            OBRAS MENORES EN CONSTRUCCIÓN
+        </div>
+
+        <div class="direccion">
+            📍 Federico Errázuriz 684, Local 7<br>
+            Pudahuel, Santiago, Región Metropolitana
+        </div>
+
+        <div class="contacto">
+            <p>📧 <a href="mailto:piem.mantenciones@gmail.com">piem.mantenciones@gmail.com</a></p>
+            <p>📞 <a href="tel:+56959847641">+56 9 5984 7641</a></p>
+        </div>
+
+        <div class="estado">
+            🚧 EN CONSTRUCCIÓN
+        </div>
+    </div>
+</div>
+</body>
+</html>
